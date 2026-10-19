@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const aircraft = require("../controllers/aircraftController")
+const aircraft = require("../controllers/aircraftController");
 const aircraftRouter = Router();
 
 aircraftRouter.get("/", (req, res) => {
